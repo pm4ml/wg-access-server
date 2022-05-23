@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   wg-access-server:
   - apiVersion: v2
+    appVersion: v0.4.6
+    created: "2022-05-23T12:58:56.815162771Z"
+    description: A Wireguard VPN Access Server
+    digest: 8218c1059db0446c35aeaa6d13b4f7361b872c26f802f9a6ecccd842ce319866
+    name: wg-access-server
+    urls:
+    - https://pm4ml.github.io/wg-access-server/repo/wg-access-server-0.5.2.tgz
+    version: 0.5.2
+  - apiVersion: v2
     appVersion: v0.5.1
     created: "2022-05-23T12:48:07.623727974Z"
     description: A Wireguard VPN Access Server
@@ -19,4 +28,4 @@ entries:
     urls:
     - https://pm4ml.github.io/wg-access-server/repo/wg-access-server-0.5.0-beta1.tgz
     version: 0.5.0-beta1
-generated: "2022-05-23T12:48:07.622612271Z"
+generated: "2022-05-23T12:58:56.814021472Z"
