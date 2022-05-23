@@ -13,6 +13,8 @@ wireguard:
     privateKey: ""
   service:
     type: ClusterIP
+    nodePortEnabled: false
+    nodePort: 51820
 
 persistence:
   enabled: false
