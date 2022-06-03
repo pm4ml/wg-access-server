@@ -48,7 +48,7 @@ spec:
 {{- end }}
   ports:
     - port: 51820
-      targetPort: 51820
+      targetPort: {{ .Values.config.wireguard.port }}
       {{- if .Values.wireguard.service.nodePortEnabled }}
       nodePort: {{ .Values.wireguard.service.nodePort }}
       {{- end }}

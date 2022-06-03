@@ -1,5 +1,7 @@
 # wg-access-server config
-config: {}
+config:
+  wireguard:
+    port: 51820
 
 web:
   config:
